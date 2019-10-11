@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Prologue by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/handshake_1f91d.png" alt="" /></span>
+							<h1 id="title">Handshake Boys</h1>
+							<p>Undergraduate Senior Project</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#project" id="project-link"><span class="icon solid fa-star">Our Project</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-users">About Us</span></a></li>
+								<li><a href="#acknowledgements" id="acknowledgements-link"><span class="icon solid fa-heart">Acknowledgements</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt"><strong><a href="http://html5up.net/license">Handshake-Detecting Wearables</a></strong>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Check it Out!</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Our Project -->
+					<section id="project" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Our Project</h2>
+							</header>
+
+							<a href="#" class="image left"><img src="images/IMG_8774.JPG" alt="" /></a>
+
+							<p>Social networking in the industry is one of the major keys to being successful. 
+								When meeting someone for the first time, a common mistake is forgetting to distribute 
+								a business card. This could be devastating because potential business connections could 
+								be lost. <br>
+								
+								<br> We wanted to create a system that assured that 
+								individuals would make a connection right when they met someone new. For our Senior Project, 
+								we created a wearable device that detects when two individuals shake hands. After a handshake 
+								is detected between two users who have been registered into our database, an email is sent to 
+								each user. The email contains the contact information from the person who they have just met. </p>
+							
+						</div>
+					</section>
+
+					<section id="project" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Hardware Used</h2>
+							</header>
+
+							<a href="#" class="image right"><img src="images/Screen_Shot_2018-12-02_at_11.18.17_PM.png" alt="" /></a>
+
+							<p>Two main components were used as parameters to detect handshakes, contact and motion. 
+								Contact between the hands of two users was identified using a PN532 Near-Field Communication 
+								Controller and motion was detected using a ADXL345 3-Axis accelerometer. The hardware components 
+								notifies the processor a handshake is detected in which the processor for our wearables is Laird’s 
+								BL652 development board. The processor would then notify our central device, the Raspberry Pi via 
+								Bluetooth Low Energy, to perform a user information distributing task.</p>
+							
+						</div>
+					</section>
+					
+					<section id="project" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Demonstration</h2>
+							</header>
+
+							<video controls="controls" width="800" height="600" name="Video Name" src="images/IMG_9031_3.MOV"></video>							
+
+						</div>
+					</section>
+				
+					<section id="project" class="two">
+						<div class="container">
+
+							<header>
+								<h2>End Result</h2>
+							</header>
+
+							<a href="#" class="image centered"><img src="images/Screen_Shot_2018-12-06_at_3.30.36_PM.png" alt="" /></a>
+
+							<p>Once the correct user information is fetched by the main server, a message is generated and sent via 
+								email to the designated user. The server would repeat the task for the other user for additional handshakes.</p>
+							
+						</div>
+					</section>
+
+				<!-- About Us -->
+					<section id="about" class="three">
+						<div class="container">
+							<header>
+								
+								<h2>About Us</h2>
+
+								<p>
+									We recently graduated from San Jose State University with Bachelor's degrees
+									in Electrical Engineering. As we to embark into the real world, we believe that 
+									students and young professionals deserve a chance for a great start in their career 
+									and used that inspiration and agile development skills to build our year-long project!  
+								</p>
+
+							</header>
+						</div>
+					</section>
+
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Brian Phan</h2>
+							</header>
+
+							<a href="#" class="image left"><img src="images/IMG_0042.jpg" alt="" /></a>
+
+							<p>Role: Software Developer
+								<br>
+								Technologies Used: Raspberry Pi, Google APIs, AWS
+								<br>
+								<br>
+								I was responsible for building the python server to exchange the virtual business cards via email, 
+								retrieved from the database provided by AWS DynamoDB.
+								<br>
+								<br>
+								Contact: brian.b.phan@sjsu.edu
+							</p>
+
+						</div>
+					</section>
+
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Anthony Ma</h2>
+							</header>
+
+							<a href="#" class="image right"><img src="images/upscale-245339439045212.png" alt="" /></a>
+
+							<p>Role: Hardware/Firmware Engineer
+								<br>
+								Technologies Used: Bluetooth Low Energy, Laird’s BL652 development board
+								<br>
+								<br>
+
+								<br>
+								<br>
+								Contact: tony@summerview.net
+							</p>
+
+						</div>
+					</section>
+
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Joshua Ng</h2>
+							</header>
+
+							<a href="#" class="image left"><img src="images/upscale-245339439045212.png" alt="" /></a>
+
+							<p>Role: Hardware/Firmware Engineer, CAD Designer
+								<br>
+								Technologies Used: Laird’s BL652 development board, PN532 Near-Field Communication Controller, ADXL345 3-Axis Accelerometer
+								<br>
+								<br>
+
+								<br>
+								<br>
+								Contact: joshuang49@gmail.com
+							</p>
+
+						</div>
+					</section>
+
+				<!-- Acknowledgements -->
+					<section id="acknowledgements" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Acknowledgements</h2>
+							</header>
+
+							<a href="#" class="image centered"><img src="images/IMG_8990.jpg" alt="" /></a>
+
+							<p>Special thanks to our advisor, Professor Pedro Santacruz, for guiding us through the development process!</p>
+
+						</div>
+					</section>
+
+		<!-- Footer -->
+			<!-- <div id="footer"> -->
+
+				<!-- Copyright -->
+					<!-- <ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div> -->
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
